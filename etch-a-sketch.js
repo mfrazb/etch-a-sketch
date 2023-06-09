@@ -39,7 +39,6 @@ function resetScreen(event) {
     });
 }
 
-
 const resetButton = document.getElementById("reset-button");
 
 resetButton.addEventListener("click", resetScreen);

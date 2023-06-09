@@ -71,6 +71,19 @@ body {
     align-items: center;
 }
 
+button {
+    background-color: rgb(202, 157, 88);
+    border-radius: 25px;
+    font-size: 3em;
+    color: rgb(177, 126, 49);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    padding: 0.5em;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
 .knob {
     width: 8em;
     height: 8em;
