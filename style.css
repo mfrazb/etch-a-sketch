@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     background-color: rgb(185, 21, 30);
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@ body {
 }
 
 #header {
-    height: 8em;
+    height: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,12 +19,13 @@ body {
 
 .minor-text {
     font-style: italic;
-    font-size: 2em;
+    font-size: 2rem;
+    padding: 2rem;
 }
 
 .major-text {
-    font-size: 3em;
-    padding: 0.5em;
+    font-size: 3rem;
+    text-align: center;
 }
 
 #screen-view {
@@ -46,6 +47,7 @@ body {
     background-color: rgb(47, 49, 48);
 }
 
+/* Add border radius to corners of grid */
 #square-1 {
     border-radius: 25px 0 0 0;
 }
@@ -65,7 +67,7 @@ body {
 #knobs {
     flex-shrink: 0;
     width: 95vw;
-    height: 10em;
+    height: 10rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,10 +76,10 @@ body {
 button {
     background-color: rgb(202, 157, 88);
     border-radius: 25px;
-    font-size: 3em;
+    font-size: 3rem;
     color: rgb(177, 126, 49);
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
-    padding: 0.5em;
+    padding: 0.5rem;
 }
 
 button:hover {
@@ -85,8 +87,8 @@ button:hover {
 }
 
 .knob {
-    width: 8em;
-    height: 8em;
+    width: 8rem;
+    height: 8rem;
     background-color: rgb(248, 240, 244);
     
     border-radius: 50%;
